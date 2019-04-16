@@ -43,12 +43,15 @@
 	
 	a
 	{
-		color: #383838;
+		color: #3A567E;
+		text-decoration: none;
+		font-weight: bold;
 	}
 	
 	a:hover
 	{
-		text-decoration: none;
+		text-decoration: underline;
+		font-weight: bold;
 	}
 	
 	.container
@@ -279,7 +282,7 @@
 	#menu ul
 	{
 		margin: 0;
-		padding: 20px 0px 20px 0px;
+		padding: 5px 0px 5px 0px;
 		list-style: none;
 		line-height: normal;
 		text-align: center;
@@ -288,18 +291,20 @@
 	#menu li
 	{
 		display: inline-block;
+		vertical-align: middle;
 	}
 	
 	#menu a
 	{
-		display: block;
-		padding: 1em 2em;
+		display: inline-block;
+		padding: 1em 1.5em;
 		letter-spacing: 1px;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 1em;
 		font-weight: 700;
 		color: #FFF;
+		transition: transform .2s;
 	}
 	
 	#menu .current_page_item a
@@ -308,6 +313,7 @@
 	
 	#menu a:hover
 	{
+	
 	}
 
 /*********************************************************************************/
@@ -325,9 +331,9 @@
 	.page
 	{
 		overflow: hidden;
-		padding: 6em 0em;
-		border-top: 1px solid #E5E5E5;
-		width: 1200px;
+		padding: 4em 0em;
+		border-top: 2px solid #E5E5E5;
+		width: 800px;
 		margin: 0px auto;
 	}
 
@@ -338,7 +344,7 @@
 	#content
 	{
 		float: left;
-		width: 1200px;
+		width: 800px;
 	}
 	
 	#content .title
@@ -356,6 +362,11 @@
 	{
 		padding-top: 0;
 		font-size: 1.5em;
+	}
+	
+	#content p
+	{
+		text-align: justify;
 	}
 
 /*********************************************************************************/
@@ -446,21 +457,16 @@
 	.column3
 	{
 		width: 400px;
+		height: 410px;
 	}
 	
 	.column1,
 	.column2
 	{
 		float: left;
-		/*margin-right: 20px;*/
 	}
 	
 	.column3
-	{
-		float: right;
-	}
-	
-	.column4
 	{
 		float: right;
 	}

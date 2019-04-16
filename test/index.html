@@ -19,6 +19,10 @@ Released   : 20130811
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link   rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
@@ -27,11 +31,13 @@ Released   : 20130811
 <div id="header">
 	<div id="menu" class="container">
 		<ul>
-			<li class="current_page_item"><a href="#logo" accesskey="1" title="">Lewis Bridgeman</a></li>
-			<li><a href="#biography" accesskey="1" title="">Home</a></li>
+			<li><a href="#logo" accesskey="1" title="">Lewis Bridgeman</a></li>
+			<li><a href="#biography" accesskey="1" title="">Biography</a></li>
 			<li><a href="#research" accesskey="2" title="">Research</a></li>
 			<li><a href="#cv" accesskey="3" title="">CV</a></li>
 			<li><a href="#contact" accesskey="4" title="">Contact</a></li>
+			<li><a href="https://www.linkedin.com/in/lewisbridgeman/"><img src="images/linkedin.png" width="25px" height="25px"></a></li>
+			<li><a href="https://www.surrey.ac.uk/people/lewis-bridgeman/"><img src="images/surrey.png" width="35px" height="35px"></a></li>
 		</ul>
 	</div>
 </div>
@@ -40,7 +46,7 @@ Released   : 20130811
 <!-- LEWIS BRIDGEMAN -->
 <div id="logo" class="container">	
 	<div class="center-div">
-	<img class="img-circle" src="images/lewis.png" alt="lewis" hspace="20" width="200" height="200">		
+	<img class="img-circle" src="images/lewis.png" alt="lewis" hspace="20" width="230" height="230">		
 	</div>
 	<div class="container"><h1>Lewis Bridgeman</h1></div>		
 </div>
@@ -52,7 +58,24 @@ Released   : 20130811
 			<h2>Biography</h2>
 			<span class="byline">PhD Candidate in Computer Vision & Graphics</span>
 		</div>
-		<p>This is <strong>TwoColours</strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>
+		<p>
+			I am a PhD student in computer vision & graphics at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">CVSSP</a>, University of Surrey.
+			I have a particular interest in 3D reconstruction, free-viewpoint video and mixed reality.
+			My work includes multi-view 3D pose estimation, model-based and model-free reconstruction, and immersive playback in virtual and augmented reality.
+			I am currently undertaking a PhD, supervised by <a href="https://www.surrey.ac.uk/people/adrian-hilton">Prof. Adrian Hilton</a> and
+			<a href="https://www.surrey.ac.uk/people/jean-yves-guillemaut">Dr. Jean-Yves Guillemaut</a>.
+		</p>
+		
+		<p>
+			I previously worked as a developer at <a href="http://www.figmentproductions.co.uk/">Figment Productions</a>, on groundbreaking virtual reality projects including
+			<a href="https://www.thorpepark.com/rides/derren-browns-ghost-train">Derren Brown's Ghost Train</a> at Thorpe Park, and
+			<a href="https://www.altontowers.com/theme-park/galactica/">Galactica</a> at Alton Towers.
+		</p>
+		
+		<p>
+			In 2017 I graduated with an MEng in Electronic Engineering with Audio-visual Systems at the <a href="https://www.surrey.ac.uk/">University of Surrey</a>, 
+			and was awarded The DTI MEng Prize for best all-round performance by a student graduating with the degree of Master of Engineering.
+		</p>
 	</div>
 	<!--<div id="sidebar"><a href="#" class="image image-full"><img src="images/pic05.jpg" alt="" /></a></div>-->
 </div>
@@ -69,10 +92,11 @@ Released   : 20130811
 			<div class="title">
 				<h2>Multi-person 3D Pose Estimation and Tracking in Sports</h2>
 				<span class="byline">L. Bridgeman, M. Volino, J-Y. Guillemaut and A. Hilton </span>
-				<span class="byline">2019 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</span>
+				<div>2019 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</div>
+				<span class="byline"><a href="#">PDF</a> | <a href="#">Website</a> | <a href="#">Video</a></span>
 			</div>
 		</div>
-		<div class="column2">
+		<!--<div class="column2">
 			<span class="icon icon-qrcode"></span>
 			<div class="title">
 				<h2>Praesent scelerisque</h2>
@@ -86,7 +110,7 @@ Released   : 20130811
 				<span class="byline">Integer sit amet aliquet pretium</span>
 			</div>
 		</div>
-		<!--<div class="column4">
+		<div class="column1">
 			<span class="icon icon-picture"></span>
 			<div class="title">
 				<h2>Etiam posuere augue</h2>
@@ -124,7 +148,7 @@ Released   : 20130811
 				<a href="#" class="button">Read More</a>
 			</div>
 		</div>			
-		<div class="column4">
+		<div class="column1">
 			<a href="#" class="image image-full"><img src="images/pic04.jpg" height="150" alt="" /></a>
 			<div class="box">
 				<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
@@ -137,16 +161,20 @@ Released   : 20130811
 <!-- CONTACT -->
 <div id="contact" class="container">
 		<div class="major">
-			<h2>Get in touch</h2>
-			<span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span>
-		</div>
+			<h2>Contact</h2>
+		
 		<ul class="contact">
-			<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
-			<li><a href="#" class="icon icon-facebook"><span></span></a></li>
-			<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
-			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
-			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+					<a target="_blank" href="mailto:l.bridgeman@surrey.ac.uk"> <i class="glyphicon glyphicon-envelope"> </i> l.bridgeman@surrey.ac.uk</a>
+                    <br>
+                    <a target="_blank" href="https://www.linkedin.com/in/lewisbridgeman/"> <i class="glyphicon glyphicon-globe"></i> linkedin.com/in/lewisbridgeman/</a>
+                    <br>
 		</ul>
+		
+                    <div class="gmap_canvas">
+                        <iframe width="800" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Centre for vision speech and signal processing&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+		</div>
 </div>
 
 <!-- COPYRIGHT -->
