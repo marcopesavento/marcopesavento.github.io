@@ -322,11 +322,13 @@
 /* Page                                                                          */
 /*********************************************************************************/
 
-	#page
+	.page
 	{
 		overflow: hidden;
 		padding: 6em 0em;
 		border-top: 1px solid #E5E5E5;
+		width: 1200px;
+		margin: 0px auto;
 	}
 
 /*********************************************************************************/
@@ -336,7 +338,7 @@
 	#content
 	{
 		float: left;
-		width: 588px;
+		width: 1200px;
 	}
 	
 	#content .title
@@ -416,7 +418,7 @@
 }
 
 
-	#featured-wrapper
+	.featured-wrapper
 	{
 		overflow: hidden;
 		padding: 5em 0em;
@@ -441,22 +443,21 @@
 
 	.column1,
 	.column2,
-	.column3,
-	.column4
+	.column3
 	{
-		width: 282px;
+		width: 400px;
 	}
 	
 	.column1,
 	.column2
 	{
 		float: left;
-		margin-right: 24px;
+		/*margin-right: 20px;*/
 	}
 	
 	.column3
 	{
-		float: left;
+		float: right;
 	}
 	
 	.column4
@@ -468,7 +469,7 @@
 /* Portfolio                                                                     */
 /*********************************************************************************/
 
-	#portfolio-wrapper
+	.portfolio-wrapper
 	{
 		padding: 6em 0em;
 	}
