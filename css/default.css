@@ -59,11 +59,18 @@
 	{
 		width: 1200px;
 		margin: 0px auto;
+		 padding-top: 73px;
 	}
 
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
+
+	.video
+	{
+	display: block;
+		margin: auto;
+	}
 
 	.image
 	{
@@ -92,7 +99,7 @@
 	.image-centered
 	{
 		display: block;
-		margin: 0 0 2em 0;
+		margin: auto;
 	}
 	
 	.image-centered img
@@ -108,6 +115,8 @@
 	ul.style1
 	{
 	}
+
+
 
 
 /*********************************************************************************/
@@ -160,7 +169,7 @@
 	.major
 	{
 		overflow: hidden;
-		margin-bottom: 4em;
+		margin-bottom: 2em;
 		text-align: center;
 	}
 	
@@ -342,10 +351,11 @@
 	.page
 	{
 		overflow: hidden;
-		padding: 4em 0em;
+		padding: 0em 0em;
 		border-top: 2px solid #E5E5E5;
 		width: 600px;
 		margin: 0px auto;
+		 padding-top: 73px;
 	}
 
 /*********************************************************************************/
@@ -443,8 +453,9 @@
 
 	.featured-wrapper
 	{
+	 padding-top: 73px;
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 0em 0em;
 		background: #FFF;
 	}
 	
@@ -464,24 +475,23 @@
 		color: #3f3f3f;
 	}
 
-	.column1,
-	.column2,
-	.column3
+	.column
 	{
-		width: 400px;
-		height: 410px;
-	}
-	
-	.column1,
-	.column2
-	{
+		width: 33.33%;
+		height: 480px;
 		float: left;
+		margin: auto;
 	}
 	
-	.column3
+	.cvtable
 	{
-		float: right;
+		margin: auto;
 	}
+	
+	td {
+	height: 120px; 
+}
+
 
 /*********************************************************************************/
 /* Portfolio                                                                     */
@@ -489,7 +499,8 @@
 
 	.portfolio-wrapper
 	{
-		padding: 6em 0em;
+			padding: 0em 0em;
+			padding-top: 73px;
 	}
 	
 	#portfolio
