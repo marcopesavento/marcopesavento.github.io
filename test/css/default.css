@@ -56,8 +56,22 @@
 	{
 		width: 1200px;
 		margin: 0px auto;
-		 padding-top: 73px;
+		 //padding-top: 73px;
 	}
+	
+	.contact
+	{
+		width: 1200px;
+		margin: 0px auto;
+		position:relative;
+		padding-top: 30px;
+	}
+	
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: -73px;
+}
 	
 /*********************************************************************************/
 /* Header                                                                        */
@@ -66,6 +80,7 @@
 	#header
 	{
 		background: #003047;
+		 z-index:1000;
 	}
 	
 	.sticky {
@@ -335,12 +350,13 @@
 	.page
 	{
 		overflow: hidden;
-		padding: 0em 0em;
 		border-top: 2px solid #E5E5E5;
 		width: 600px;
 		margin: 0px auto;
-		 padding-top: 73px;
+	 position: relative;
 	}
+
+
 
 /*********************************************************************************/
 /* Content                                                                       */
@@ -350,7 +366,8 @@
 	{
 		float: left;
 		width: 600px;
-		
+		padding-bottom: 50px;
+		padding-top: 30px;
 	}
 	
 	#content .title
@@ -437,10 +454,15 @@
 
 	.featured-wrapper
 	{
-	 padding-top: 73px;
+		position: relative;
 		overflow: hidden;
 		padding: 0em 0em;
-		background: #FFF;
+		background: #e4ecf6;
+		//#D3DEED;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		
+		//border: 2px solid #c9c9c9;
 	}
 	
 	#featured h2
@@ -462,7 +484,7 @@
 	.column
 	{
 		width: 33.33%;
-		height: 480px;
+		height: 400px;
 		float: left;
 		margin: auto;
 	}
@@ -484,7 +506,8 @@
 	.portfolio-wrapper
 	{
 			padding: 0em 0em;
-			padding-top: 73px;
+			position: relative;
+			padding-top: 30px;
 	}
 	
 	#portfolio
@@ -523,7 +546,7 @@
 		display: block;
 		padding-top: 0.2em;
 		font-weight: 300;
-		font-size: 2em;
+		font-size: 1.5em;
 	}	
 	
 	.image-centered
